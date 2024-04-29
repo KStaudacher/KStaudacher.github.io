@@ -1,0 +1,60 @@
+p{
+    color: beige;
+    font-family: Georgia, Garamond, serif;
+
+}
+
+body{
+    /*a background-color: rgb(174, 200, 130);*/
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+/*a section with this label will have these elements
+cannot be repeated*/
+#first{
+    color: beige;
+    font-family: Georgia, Garamond, serif;
+}
+
+
+
+.Portfolio_Description{
+    background-color: black;
+    color: beige;
+    font-family: Georgia, Garamond, serif;
+}
+
+.container {
+    display: flex;
+  }
+  
+  #hard_skills {
+    background-color: yellow;
+    flex: 1;
+  }
+  
+  #soft_skills {
+    background-color: orange;
+    flex: 1;
+  }
+/*a#bigBox {
+    width:800px;
+    height: 300px;
+  }
+  #leftBox {
+    float:left;
+    height:300px;
+    width: 390px;
+    background: pink;
+    margin:0;
+    border-radius: 100px 0 0 0;
+  }
+  #rightBox {
+    float:right;
+    height:300px;
+    width: 390px;
+    background: pink;
+    border-radius:0 0 100px 0;
+  }*/
