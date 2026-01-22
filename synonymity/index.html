@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Synonymity</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body style="background: black; color: white; text-align: center;">
+    <div id="intro">
+      <h1>Synonymity</h1>
+      <p id="description">
+        This is a collaborative cybertext exploring endless word associations.
+      </p>
+      <button id="begin-btn">Begin</button>
+    </div>
+
+    <div id="main" style="display: none;">
+      <h2 id="word"></h2>
+      <textarea id="response" placeholder="Write your response..."></textarea>
+      <p id="timer"></p>
+      <button id="done-btn">Done</button>
+    </div>
+
+    <!-- Load Firebase setup first -->
+    <script type="module" src="./firebase.js"></script>
+
+    <!-- Then load your main app logic -->
+    <script type="module" src="./script.js"></script>
+  </body>
+</html>
